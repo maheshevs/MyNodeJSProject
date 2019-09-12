@@ -15,7 +15,7 @@ https.get(options, (res)=>{
    //console.log(res);
     res.on('data', (d) => {
       // process.stdout.write(d);
-       //console.log(JSON.parse(process.stdout.write(d)))
+       console.log(JSON.parse(process.stdout.write(d)));
       console.log(JSON.parse(process.stdout.write(d)));
     });
      res.on('end', (d) => {
