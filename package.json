@@ -14,5 +14,12 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+	    "body-parser": "latest",
+	    "express": "latest",
+	    "json": "^9.0.6",
+	    "query-string": "^6.8.3",
+	    "string-to-json": "^0.1.0"
+   },
   "readmeFilename": "README.md"
 }
