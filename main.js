@@ -1,9 +1,3 @@
-var http = require('http');
-http.createServer(function handler(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
-}).listen(1339, '127.0.0.1');
-
 https = require('https');
 var querystring = require('querystring');
 var buffers = [];
@@ -70,7 +64,7 @@ https.get(options, (res)=>{
               reviewData.forEach(userDt => {
                // console.log('userData:',userDt);
                 var review = {
-                  'Name Of Person:': userDt.user.name,
+                  'Name Of Persiion:': userDt.user.name,
                   'Review :' : userDt.text
                 }
                 reviewArr.push(review);
